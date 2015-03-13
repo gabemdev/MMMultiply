@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ANE-vt-igN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRF-E5-rPc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="179" y="69" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QHg-2x-wHQ">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="49" y="65" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Value" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVR-33-7vg">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="254" y="65" width="97" height="30"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUb-xh-Jd6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="264" width="120" height="32"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="251" width="120" height="32"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onCalculateButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Jq5-hu-jFk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="CRF-E5-rPc"/>
+                                <exclude reference="QHg-2x-wHQ"/>
+                                <exclude reference="eVR-33-7vg"/>
+                                <exclude reference="PUb-xh-Jd6"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="CRF-E5-rPc"/>
+                                <include reference="QHg-2x-wHQ"/>
+                                <include reference="eVR-33-7vg"/>
+                                <include reference="PUb-xh-Jd6"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="8ux-TI-d2a">
+                        <barButtonItem key="rightBarButtonItem" title="Web" id="odO-gx-peD">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="HNj-Zp-pU6" kind="show" identifier="showWeb" id="wTV-Or-4Iv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="calculateButton" destination="PUb-xh-Jd6" id="Spc-G1-ctz"/>
+                        <outlet property="firstValueTextField" destination="QHg-2x-wHQ" id="CE9-LR-KMi"/>
+                        <outlet property="secondValueTextField" destination="eVR-33-7vg" id="nIo-pr-MGQ"/>
+                        <outlet property="webButton" destination="odO-gx-peD" id="nSf-SE-WhT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="934.5" y="254"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="lbx-Vz-WDC">
+            <objects>
+                <viewController id="HNj-Zp-pU6" customClass="WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RR4-mt-b3r"/>
+                        <viewControllerLayoutGuide type="bottom" id="arJ-VW-Djj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vru-P2-DaF">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-ZO-Ccz">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Owg-AT-rKw">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                <color key="color" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iz7-ZO-Ccz" firstAttribute="top" secondItem="RR4-mt-b3r" secondAttribute="bottom" id="5ry-y1-nCb"/>
+                            <constraint firstAttribute="centerX" secondItem="Owg-AT-rKw" secondAttribute="centerX" id="E1u-aR-eTe"/>
+                            <constraint firstAttribute="centerY" secondItem="Owg-AT-rKw" secondAttribute="centerY" id="Gua-ut-b5J"/>
+                            <constraint firstAttribute="trailing" secondItem="iz7-ZO-Ccz" secondAttribute="trailing" id="HEm-Qg-31C"/>
+                            <constraint firstItem="arJ-VW-Djj" firstAttribute="top" secondItem="iz7-ZO-Ccz" secondAttribute="bottom" id="HPK-Ce-DpT"/>
+                            <constraint firstItem="iz7-ZO-Ccz" firstAttribute="leading" secondItem="Vru-P2-DaF" secondAttribute="leading" id="oWK-Rl-sR9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="iz7-ZO-Ccz"/>
+                                <exclude reference="Owg-AT-rKw"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5ry-y1-nCb"/>
+                                <exclude reference="HEm-Qg-31C"/>
+                                <exclude reference="oWK-Rl-sR9"/>
+                                <exclude reference="E1u-aR-eTe"/>
+                                <exclude reference="Gua-ut-b5J"/>
+                                <exclude reference="HPK-Ce-DpT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="iz7-ZO-Ccz"/>
+                                <include reference="Owg-AT-rKw"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5ry-y1-nCb"/>
+                                <include reference="HEm-Qg-31C"/>
+                                <include reference="oWK-Rl-sR9"/>
+                                <include reference="E1u-aR-eTe"/>
+                                <include reference="Gua-ut-b5J"/>
+                                <include reference="HPK-Ce-DpT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="networkActivityIndicator" destination="Owg-AT-rKw" id="ZV7-SN-Bp9"/>
+                        <outlet property="webView" destination="iz7-ZO-Ccz" id="YxM-SI-QQJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7uT-G7-YqP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1611" y="248"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="C71-gN-GS5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ANE-vt-igN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="KbS-LH-2yK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.23137254900000001" green="0.47843137250000001" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <color key="textShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="1cF-w2-LV9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Joy-RP-v5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282" y="254"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2F7C291AB32661004AB575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F7C281AB32661004AB575 /* main.m */; };
+		6D2F7C2C1AB32661004AB575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F7C2B1AB32661004AB575 /* AppDelegate.m */; };
+		6D2F7C2F1AB32661004AB575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F7C2E1AB32661004AB575 /* ViewController.m */; };
+		6D2F7C321AB32661004AB575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F7C301AB32661004AB575 /* Main.storyboard */; };
+		6D2F7C341AB32661004AB575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F7C331AB32661004AB575 /* Images.xcassets */; };
+		6D2F7C371AB32661004AB575 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F7C351AB32661004AB575 /* LaunchScreen.xib */; };
+		6D2F7C431AB32661004AB575 /* MMMultiplyCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F7C421AB32661004AB575 /* MMMultiplyCalcTests.m */; };
+		6D2F7C4E1AB32D8E004AB575 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F7C4D1AB32D8E004AB575 /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D2F7C3D1AB32661004AB575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2F7C1B1AB32660004AB575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2F7C221AB32660004AB575;
+			remoteInfo = MMMultiplyCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D2F7C231AB32660004AB575 /* MMMultiplyCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMMultiplyCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2F7C271AB32661004AB575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2F7C281AB32661004AB575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D2F7C2A1AB32661004AB575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D2F7C2B1AB32661004AB575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D2F7C2D1AB32661004AB575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D2F7C2E1AB32661004AB575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D2F7C311AB32661004AB575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D2F7C331AB32661004AB575 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D2F7C361AB32661004AB575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6D2F7C3C1AB32661004AB575 /* MMMultiplyCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMMultiplyCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2F7C411AB32661004AB575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2F7C421AB32661004AB575 /* MMMultiplyCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMMultiplyCalcTests.m; sourceTree = "<group>"; };
+		6D2F7C4C1AB32D8E004AB575 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6D2F7C4D1AB32D8E004AB575 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2F7C201AB32660004AB575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F7C391AB32661004AB575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D2F7C1A1AB32660004AB575 = {
+			isa = PBXGroup;
+			children = (
+				6D2F7C251AB32660004AB575 /* MMMultiplyCalc */,
+				6D2F7C3F1AB32661004AB575 /* MMMultiplyCalcTests */,
+				6D2F7C241AB32660004AB575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2F7C241AB32660004AB575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F7C231AB32660004AB575 /* MMMultiplyCalc.app */,
+				6D2F7C3C1AB32661004AB575 /* MMMultiplyCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2F7C251AB32660004AB575 /* MMMultiplyCalc */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F7C2A1AB32661004AB575 /* AppDelegate.h */,
+				6D2F7C2B1AB32661004AB575 /* AppDelegate.m */,
+				6D2F7C2D1AB32661004AB575 /* ViewController.h */,
+				6D2F7C2E1AB32661004AB575 /* ViewController.m */,
+				6D2F7C301AB32661004AB575 /* Main.storyboard */,
+				6D2F7C331AB32661004AB575 /* Images.xcassets */,
+				6D2F7C351AB32661004AB575 /* LaunchScreen.xib */,
+				6D2F7C261AB32660004AB575 /* Supporting Files */,
+				6D2F7C4C1AB32D8E004AB575 /* WebViewController.h */,
+				6D2F7C4D1AB32D8E004AB575 /* WebViewController.m */,
+			);
+			path = MMMultiplyCalc;
+			sourceTree = "<group>";
+		};
+		6D2F7C261AB32660004AB575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F7C271AB32661004AB575 /* Info.plist */,
+				6D2F7C281AB32661004AB575 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D2F7C3F1AB32661004AB575 /* MMMultiplyCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F7C421AB32661004AB575 /* MMMultiplyCalcTests.m */,
+				6D2F7C401AB32661004AB575 /* Supporting Files */,
+			);
+			path = MMMultiplyCalcTests;
+			sourceTree = "<group>";
+		};
+		6D2F7C401AB32661004AB575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F7C411AB32661004AB575 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2F7C221AB32660004AB575 /* MMMultiplyCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2F7C461AB32661004AB575 /* Build configuration list for PBXNativeTarget "MMMultiplyCalc" */;
+			buildPhases = (
+				6D2F7C1F1AB32660004AB575 /* Sources */,
+				6D2F7C201AB32660004AB575 /* Frameworks */,
+				6D2F7C211AB32660004AB575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMMultiplyCalc;
+			productName = MMMultiplyCalc;
+			productReference = 6D2F7C231AB32660004AB575 /* MMMultiplyCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D2F7C3B1AB32661004AB575 /* MMMultiplyCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2F7C491AB32661004AB575 /* Build configuration list for PBXNativeTarget "MMMultiplyCalcTests" */;
+			buildPhases = (
+				6D2F7C381AB32661004AB575 /* Sources */,
+				6D2F7C391AB32661004AB575 /* Frameworks */,
+				6D2F7C3A1AB32661004AB575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2F7C3E1AB32661004AB575 /* PBXTargetDependency */,
+			);
+			name = MMMultiplyCalcTests;
+			productName = MMMultiplyCalcTests;
+			productReference = 6D2F7C3C1AB32661004AB575 /* MMMultiplyCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2F7C1B1AB32660004AB575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Fantastik;
+				TargetAttributes = {
+					6D2F7C221AB32660004AB575 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6D2F7C3B1AB32661004AB575 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6D2F7C221AB32660004AB575;
+					};
+				};
+			};
+			buildConfigurationList = 6D2F7C1E1AB32660004AB575 /* Build configuration list for PBXProject "MMMultiplyCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2F7C1A1AB32660004AB575;
+			productRefGroup = 6D2F7C241AB32660004AB575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2F7C221AB32660004AB575 /* MMMultiplyCalc */,
+				6D2F7C3B1AB32661004AB575 /* MMMultiplyCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2F7C211AB32660004AB575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F7C321AB32661004AB575 /* Main.storyboard in Resources */,
+				6D2F7C371AB32661004AB575 /* LaunchScreen.xib in Resources */,
+				6D2F7C341AB32661004AB575 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F7C3A1AB32661004AB575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2F7C1F1AB32660004AB575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F7C2F1AB32661004AB575 /* ViewController.m in Sources */,
+				6D2F7C2C1AB32661004AB575 /* AppDelegate.m in Sources */,
+				6D2F7C291AB32661004AB575 /* main.m in Sources */,
+				6D2F7C4E1AB32D8E004AB575 /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2F7C381AB32661004AB575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F7C431AB32661004AB575 /* MMMultiplyCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D2F7C3E1AB32661004AB575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2F7C221AB32660004AB575 /* MMMultiplyCalc */;
+			targetProxy = 6D2F7C3D1AB32661004AB575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D2F7C301AB32661004AB575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2F7C311AB32661004AB575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2F7C351AB32661004AB575 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2F7C361AB32661004AB575 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2F7C441AB32661004AB575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D2F7C451AB32661004AB575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2F7C471AB32661004AB575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMMultiplyCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D2F7C481AB32661004AB575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMMultiplyCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D2F7C4A1AB32661004AB575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMMultiplyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMMultiplyCalc.app/MMMultiplyCalc";
+			};
+			name = Debug;
+		};
+		6D2F7C4B1AB32661004AB575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMMultiplyCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMMultiplyCalc.app/MMMultiplyCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2F7C1E1AB32660004AB575 /* Build configuration list for PBXProject "MMMultiplyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F7C441AB32661004AB575 /* Debug */,
+				6D2F7C451AB32661004AB575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2F7C461AB32661004AB575 /* Build configuration list for PBXNativeTarget "MMMultiplyCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F7C471AB32661004AB575 /* Debug */,
+				6D2F7C481AB32661004AB575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D2F7C491AB32661004AB575 /* Build configuration list for PBXNativeTarget "MMMultiplyCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2F7C4A1AB32661004AB575 /* Debug */,
+				6D2F7C4B1AB32661004AB575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D2F7C1B1AB32660004AB575 /* Project object */;
+}
