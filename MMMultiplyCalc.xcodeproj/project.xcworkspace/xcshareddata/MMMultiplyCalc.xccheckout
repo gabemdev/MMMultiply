@@ -10,31 +10,31 @@
 	<string>MMMultiplyCalc</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EC09CCC35D150FAF82729C4B601ECDCB0BCC442D</key>
-		<string>github.com:gabemdev/MobileMakers.git</string>
+		<key>093FDE44F9BC5EAF646DC7219286267505FA993B</key>
+		<string>github.com:gabemdev/MMMultiply.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>course/MMMultiplyCalc/MMMultiplyCalc.xcodeproj</string>
+	<string>MMMultiplyCalc.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EC09CCC35D150FAF82729C4B601ECDCB0BCC442D</key>
-		<string>../../../..</string>
+		<key>093FDE44F9BC5EAF646DC7219286267505FA993B</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:gabemdev/MobileMakers.git</string>
+	<string>github.com:gabemdev/MMMultiply.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EC09CCC35D150FAF82729C4B601ECDCB0BCC442D</string>
+	<string>093FDE44F9BC5EAF646DC7219286267505FA993B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EC09CCC35D150FAF82729C4B601ECDCB0BCC442D</string>
+			<string>093FDE44F9BC5EAF646DC7219286267505FA993B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MobileMakers</string>
+			<string>MMMultiplyCalc</string>
 		</dict>
 	</array>
 </dict>
